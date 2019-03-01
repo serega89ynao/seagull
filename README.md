@@ -1,0 +1,2 @@
+# seagull
+WP theme
