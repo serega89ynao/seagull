@@ -1,0 +1,63 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 11/12/2018 13:54
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-musica-searcher:before { content: "\f100"; }
+.flaticon-instagram-social-outlined-logo:before { content: "\f101"; }
+.flaticon-twitter-social-outlined-logo:before { content: "\f102"; }
+.flaticon-facebook-logo-outline:before { content: "\f103"; }
+.flaticon-youtube-play-button-outlined-social-symbol:before { content: "\f104"; }
+.flaticon-linkedin-social-outline-logotype:before { content: "\f105"; }
+.flaticon-google-plus-outlined-logo-social-symbol:before { content: "\f106"; }
+.flaticon-pinterest-outlined-logo:before { content: "\f107"; }
+.flaticon-skype-social-outlined-logo:before { content: "\f108"; }
+.flaticon-tumblr-outlined-social-logo-symbol-of-a-letter:before { content: "\f109"; }
+.flaticon-vimeo-letter-logo-outline:before { content: "\f10a"; }
+.flaticon-behance-social-outlined-logo:before { content: "\f10b"; }
+    
+    $font-Flaticon-musica-searcher: "\f100";
+    $font-Flaticon-instagram-social-outlined-logo: "\f101";
+    $font-Flaticon-twitter-social-outlined-logo: "\f102";
+    $font-Flaticon-facebook-logo-outline: "\f103";
+    $font-Flaticon-youtube-play-button-outlined-social-symbol: "\f104";
+    $font-Flaticon-linkedin-social-outline-logotype: "\f105";
+    $font-Flaticon-google-plus-outlined-logo-social-symbol: "\f106";
+    $font-Flaticon-pinterest-outlined-logo: "\f107";
+    $font-Flaticon-skype-social-outlined-logo: "\f108";
+    $font-Flaticon-tumblr-outlined-social-logo-symbol-of-a-letter: "\f109";
+    $font-Flaticon-vimeo-letter-logo-outline: "\f10a";
+    $font-Flaticon-behance-social-outlined-logo: "\f10b";
